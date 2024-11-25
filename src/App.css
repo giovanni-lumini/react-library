@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+        text-decoration: none;
+        color: white;
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
